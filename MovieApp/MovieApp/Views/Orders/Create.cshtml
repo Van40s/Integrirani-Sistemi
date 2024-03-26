@@ -1,0 +1,41 @@
+﻿@model MovieApp.Models.CreateOrderDTO
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <p>Order for user @Model?.user?.FirstName</p>
+        </div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <select asp-for="ticketId" class="form-control">
+                <option value="">Select Concert</option>
+                    @foreach (var ticket in Model.availableTickets)
+                    {
+                        <option value="@ticket?.Id">@ticket?.Movie?.MovieName</option>
+                    }
+            </select>
+            <input asp-for="quantity" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

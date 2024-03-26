@@ -1,0 +1,49 @@
+﻿@model EShop.Web.Models.Concert
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Concert</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.concertName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.concertName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dateAndTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dateAndTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.location)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pictureURI)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pictureURI)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.concertPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.concertPrice)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
