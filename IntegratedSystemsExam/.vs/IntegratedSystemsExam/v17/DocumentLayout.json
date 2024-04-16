@@ -1,28 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\integratedsystemsexam (1)\\integratedsystemsexam\\integratedsystems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\integratedsystemsexam (1)\\integratedsystemsexam\\integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\integratedsystemsexam (1)\\integratedsystemsexam\\integratedsystems.domain\\domain models\\vaccinationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\domain models\\vaccinationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\integratedsystemsexam (1)\\integratedsystemsexam\\integratedsystems.web\\views\\vaccinationcenters\\nomorecapacity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\views\\vaccinationcenters\\nomorecapacity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\integratedsystemsexam (1)\\integratedsystemsexam\\integratedsystems.domain\\domain models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\domain models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,71 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Implementation\\Repository.cs",
-              "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Implementation\\Repository.cs",
-              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Implementation\\Repository.cs",
-              "RelativeToolTip": "IntegratedSystems.Repository\\Implementation\\Repository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T21:28:19.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NoMoreCapacity.cshtml",
-              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\NoMoreCapacity.cshtml",
-              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Views\\VaccinationCenters\\NoMoreCapacity.cshtml",
-              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\NoMoreCapacity.cshtml",
-              "RelativeToolTip": "IntegratedSystems.Web\\Views\\VaccinationCenters\\NoMoreCapacity.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T21:23:30.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VaccinationCentersController.cs",
-              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
-              "RelativeDocumentMoniker": "IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
-              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
-              "RelativeToolTip": "IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAqwIYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T21:19:57.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VaccinationCenter.cs",
-              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
-              "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
-              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
-              "RelativeToolTip": "IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T21:19:34.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vaccine.cs",
-              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
-              "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
-              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
-              "RelativeToolTip": "IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T21:19:31.926Z",
-              "EditorCaption": ""
             }
           ]
         }

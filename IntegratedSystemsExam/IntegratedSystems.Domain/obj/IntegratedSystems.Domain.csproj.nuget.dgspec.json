@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj": {}
+    "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj": {
+    "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj",
         "projectName": "IntegratedSystems.Domain",
-        "projectPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj",
+        "projectPath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj",
         "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\obj\\",
+        "outputPath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -46,4 +46,39 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
+    <table class="table">
+        <thead>
+        <th>#</th>
+        <th>Center</th>
+        <th>Date Taken</th>
+        <th>Certificate</th>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.VaccinationSchedule)
+            {
+
+
+
+                <tr>
+                    <td>
+                        @{
+                            var i = 0;
+                            i = i + 1;
+                            <p>@i</p>
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Center.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateTaken)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Certificate)
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
 </div>

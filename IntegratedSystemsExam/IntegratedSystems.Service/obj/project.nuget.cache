@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UV5hWaX4wQE/a4WhkM4aV7BSyLJoFV6KQunG32Z2ysN/fr1L2T4O92RACEbB3Kdyfv51ldTWyK3qpW+jAksEkQ==",
+  "dgSpecHash": "a6wbvYUVs/yRYsqjG3CsfX/UIQlGYOwikFxH3Vwl+Un5F1HY00RPLZrg5oe24abihq5JaQzKbpFvTMt88Wn80g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Service\\IntegratedSystems.Service.csproj",
+  "projectFilePath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Service\\IntegratedSystems.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanes\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vanes\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -46,13 +46,12 @@ namespace IntegratedSystems.Service.Implementation
         public void ScheduleVaccine(VaccinationDTO dto)
         {
             Vaccine vaccine = new Vaccine();
-
             vaccine.Manufacturer = dto.manufacturer;
-            vaccine.Certificate = new Guid();
+            vaccine.Certificate = Guid.NewGuid();
             vaccine.VaccinationCenter = dto.vaccCenterId;
             vaccine.PatientId = dto.patientId;
             vaccine.DateTaken = dto.vaccinationDate;
-
+            vaccine.Center = vaccinationCenterRepository.Get(dto.vaccCenterId);
             vaccineRepository.Insert(vaccine);
         }
 

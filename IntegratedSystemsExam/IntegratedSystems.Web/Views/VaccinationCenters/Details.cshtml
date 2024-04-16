@@ -35,4 +35,50 @@
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="ScheduleVacination" asp-route-id="@Model?.Id">Schedule vaccination</a> |
     <a asp-action="Index">Back to List</a>
+
+    <table class="table">
+        <thead>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Date Taken</th>
+        <th>Center</th>
+        <th>Certificate</th>
+        </thead>
+        <tbody>
+            @{
+                var i = 0;
+                foreach (var item in Model.Vaccines)
+                {
+
+
+
+                    <tr>
+                        <td>
+                            @{
+                                i = i + 1;
+                                <p>@i</p>
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PatientFor.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PatientFor.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DateTaken)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Center.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Certificate)
+                        </td>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table>
 </div>

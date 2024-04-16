@@ -4313,11 +4313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj",
       "projectName": "IntegratedSystems.Repository",
-      "projectPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj",
+      "projectPath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj",
       "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Repository\\obj\\",
+      "outputPath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4335,8 +4335,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj": {
-              "projectPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\IntegratedSystemsExam (1)\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj"
+            "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj": {
+              "projectPath": "C:\\Users\\vanes\\source\\EShopWebApplication\\IntegratedSystemsExam\\IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj"
             }
           }
         }
