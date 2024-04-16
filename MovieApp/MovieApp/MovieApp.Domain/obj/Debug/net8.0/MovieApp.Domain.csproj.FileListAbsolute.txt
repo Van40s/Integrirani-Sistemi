@@ -1,0 +1,12 @@
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\bin\Debug\net8.0\MovieApp.Domain.deps.json
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\bin\Debug\net8.0\MovieApp.Domain.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\bin\Debug\net8.0\MovieApp.Domain.pdb
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.csproj.AssemblyReference.cache
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.AssemblyInfoInputs.cache
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.AssemblyInfo.cs
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\refint\MovieApp.Domain.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\MovieApp.Domain.pdb
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Domain\obj\Debug\net8.0\ref\MovieApp.Domain.dll

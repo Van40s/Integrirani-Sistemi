@@ -1,0 +1,18 @@
+﻿@model MovieApp.Domain.Models.Order
+
+
+<h2>Order for @Model.user.FirstName</h2>
+
+@{
+    double sum = 0;
+}
+@foreach (TicketInOrder t in @Model.ticketInOrder){
+    sum += (t.ticket.Price * t.quantity);
+
+    <h2>@t.ticket.Movie.MovieName   -    @t.ticket.Price</h2>
+    <a asp-action="DeleteFromCart" asp-route-id="@t.id">Delete from cart</a>
+}
+
+<h3>Total sum to pay is @sum</h3>
+
+<a asp-action="PayCart">Pay</a>

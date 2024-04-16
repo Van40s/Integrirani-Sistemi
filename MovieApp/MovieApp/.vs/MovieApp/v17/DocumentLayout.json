@@ -1,0 +1,336 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.service\\implementation\\orderserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|solutionrelative:movieapp.service\\implementation\\orderserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\orders\\paycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\orders\\paycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.service\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|solutionrelative:movieapp.service\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\orders\\deletefromcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\orders\\deletefromcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.service\\implementation\\ticketinorderimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|solutionrelative:movieapp.service\\implementation\\ticketinorderimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.service\\interface\\iticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|solutionrelative:movieapp.service\\interface\\iticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.service\\implementation\\ticketserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|solutionrelative:movieapp.service\\implementation\\ticketserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.service\\interface\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA367C5-A3FA-49C4-8DA1-FFAD08D1FEEC}|MovieApp.Service\\MovieApp.Service.csproj|solutionrelative:movieapp.service\\interface\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57D5713-04BE-45C6-9FF5-A9F658FAA5E9}|MovieApp.Repository\\MovieApp.Repository.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57D5713-04BE-45C6-9FF5-A9F658FAA5E9}|MovieApp.Repository\\MovieApp.Repository.csproj|solutionrelative:movieapp.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8F5DCB-692B-4ADF-A0E5-6F95BC2F97D8}|MovieApp.Domain\\MovieApp.Domain.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.domain\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8F5DCB-692B-4ADF-A0E5-6F95BC2F97D8}|MovieApp.Domain\\MovieApp.Domain.csproj|solutionrelative:movieapp.domain\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\tickets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\tickets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp\\views\\orders\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\orders\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8F5DCB-692B-4ADF-A0E5-6F95BC2F97D8}|MovieApp.Domain\\MovieApp.Domain.csproj|c:\\users\\vanes\\onedrive\\desktop\\is\\movieapp\\movieapp\\movieapp.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8F5DCB-692B-4ADF-A0E5-6F95BC2F97D8}|MovieApp.Domain\\MovieApp.Domain.csproj|solutionrelative:movieapp.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T22:06:23.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Interface\\IOrderService.cs",
+              "RelativeDocumentMoniker": "MovieApp.Service\\Interface\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Interface\\IOrderService.cs",
+              "RelativeToolTip": "MovieApp.Service\\Interface\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:27:32.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PayCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\PayCart.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Orders\\PayCart.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\PayCart.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Orders\\PayCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:25:58.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Program.cs",
+              "RelativeToolTip": "MovieApp\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:23:41.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITicketInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Interface\\ITicketInOrder.cs",
+              "RelativeDocumentMoniker": "MovieApp.Service\\Interface\\ITicketInOrder.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Interface\\ITicketInOrder.cs",
+              "RelativeToolTip": "MovieApp.Service\\Interface\\ITicketInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:16:36.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "MovieApp\\Controllers\\TicketsController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAwIMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:15:22.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Tickets\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Tickets\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Tickets\\Delete.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Tickets\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:14:09.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteFromCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\DeleteFromCart.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Orders\\DeleteFromCart.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\DeleteFromCart.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Orders\\DeleteFromCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:14:06.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "MovieApp\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwFUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:13:18.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Implementation\\OrderServiceImpl.cs",
+              "RelativeDocumentMoniker": "MovieApp.Service\\Implementation\\OrderServiceImpl.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Implementation\\OrderServiceImpl.cs",
+              "RelativeToolTip": "MovieApp.Service\\Implementation\\OrderServiceImpl.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:00:26.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:12:16.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketInOrderImpl.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Implementation\\TicketInOrderImpl.cs",
+              "RelativeDocumentMoniker": "MovieApp.Service\\Implementation\\TicketInOrderImpl.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Implementation\\TicketInOrderImpl.cs",
+              "RelativeToolTip": "MovieApp.Service\\Implementation\\TicketInOrderImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:17:14.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Repository\\Implementation\\Repository.cs",
+              "RelativeDocumentMoniker": "MovieApp.Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Repository\\Implementation\\Repository.cs",
+              "RelativeToolTip": "MovieApp.Repository\\Implementation\\Repository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:18:27.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Interface\\ITicketService.cs",
+              "RelativeDocumentMoniker": "MovieApp.Service\\Interface\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Interface\\ITicketService.cs",
+              "RelativeToolTip": "MovieApp.Service\\Interface\\ITicketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:20:27.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Implementation\\TicketServiceImpl.cs",
+              "RelativeDocumentMoniker": "MovieApp.Service\\Implementation\\TicketServiceImpl.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Service\\Implementation\\TicketServiceImpl.cs",
+              "RelativeToolTip": "MovieApp.Service\\Implementation\\TicketServiceImpl.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:20:59.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Domain\\Models\\TicketInOrder.cs",
+              "RelativeDocumentMoniker": "MovieApp.Domain\\Models\\TicketInOrder.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Domain\\Models\\TicketInOrder.cs",
+              "RelativeToolTip": "MovieApp.Domain\\Models\\TicketInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:13:08.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Tickets\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Tickets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Tickets\\Index.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Tickets\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:12:33.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddToCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\AddToCart.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Orders\\AddToCart.cshtml",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp\\Views\\Orders\\AddToCart.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Orders\\AddToCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T09:12:23.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MovieApp.Domain\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\vanes\\OneDrive\\Desktop\\IS\\MovieApp\\MovieApp\\MovieApp.Domain\\Models\\Order.cs",
+              "RelativeToolTip": "MovieApp.Domain\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:00:13.176Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

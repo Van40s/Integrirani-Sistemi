@@ -1,0 +1,15 @@
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\bin\Debug\net8.0\MovieApp.Repository.deps.json
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\bin\Debug\net8.0\MovieApp.Repository.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\bin\Debug\net8.0\MovieApp.Repository.pdb
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\bin\Debug\net8.0\MovieApp.Domain.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\bin\Debug\net8.0\MovieApp.Domain.pdb
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.csproj.AssemblyReference.cache
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.AssemblyInfoInputs.cache
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.AssemblyInfo.cs
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.5E0AECC5.Up2Date
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\refint\MovieApp.Repository.dll
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\MovieApp.Repository.pdb
+C:\Users\vanes\OneDrive\Desktop\IS\MovieApp\MovieApp\MovieApp.Repository\obj\Debug\net8.0\ref\MovieApp.Repository.dll
