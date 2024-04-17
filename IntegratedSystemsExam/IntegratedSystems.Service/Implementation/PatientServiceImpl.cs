@@ -1,11 +1,6 @@
 ﻿using IntegratedSystems.Domain.Domain_Models;
 using IntegratedSystems.Repository.Interface;
 using IntegratedSystems.Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntegratedSystems.Service.Implementation
 {

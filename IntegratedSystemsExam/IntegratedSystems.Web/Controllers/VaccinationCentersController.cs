@@ -17,10 +17,12 @@ namespace IntegratedSystems.Web.Controllers
 
         private readonly IVaccinationCenterService _vaccCenterService;
         private readonly IPatientService _patientService;
-        public VaccinationCentersController(IVaccinationCenterService vaccCenterService, IPatientService patientService)
+        private readonly IVaccinationService _vaccinationService;
+        public VaccinationCentersController(IVaccinationCenterService vaccCenterService, IPatientService patientService, IVaccinationService vaccinationService)
         {
             _vaccCenterService = vaccCenterService;
             _patientService = patientService;
+            _vaccinationService = vaccinationService;
         }
 
         // GET: VaccinationCenters
@@ -36,14 +38,17 @@ namespace IntegratedSystems.Web.Controllers
             {
                 return NotFound();
             }
+            CenterDetailsDTO dto = new CenterDetailsDTO();
 
-            var vaccinationCenter = _vaccCenterService.GetVaccinationCenterById(id);
-            if (vaccinationCenter == null)
+
+            dto.vaccCenter = _vaccCenterService.GetVaccinationCenterById(id);
+            dto.vaccines = _vaccinationService.GetVaccinesForCenter(id);
+            if (dto.vaccCenter == null)
             {
                 return NotFound();
             }
 
-            return View(vaccinationCenter);
+            return View(dto);
         }
 
         // GET: VaccinationCenters/Create
@@ -153,12 +158,9 @@ namespace IntegratedSystems.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var vaccCenter = _vaccCenterService.GetVaccinationCenterById(dto.vaccCenterId);
-                vaccCenter.MaxCapacity--;
-                _vaccCenterService.UpdateVaccinationCenter(vaccCenter);
-                _vaccCenterService.ScheduleVaccine(dto);
+                _vaccCenterService.LowerCapacity(dto.vaccCenterId);
+                _vaccinationService.ScheduleVaccine(dto);
                 return RedirectToAction(nameof(Index));
-                
             }
 
             return View(dto);

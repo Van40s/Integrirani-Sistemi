@@ -1,12 +1,7 @@
 ﻿using IntegratedSystems.Domain.Domain_Models;
-using IntegratedSystems.Domain.DTO;
 using IntegratedSystems.Repository.Interface;
 using IntegratedSystems.Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace IntegratedSystems.Service.Implementation
 {
@@ -14,12 +9,10 @@ namespace IntegratedSystems.Service.Implementation
     {
 
         private readonly IRepository<VaccinationCenter> vaccinationCenterRepository;
-        private readonly IRepository<Vaccine> vaccineRepository;
 
-        public VaccinationCenterServiceImpl(IRepository<VaccinationCenter> repository, IRepository<Vaccine> vaccineRepository)
+        public VaccinationCenterServiceImpl(IRepository<VaccinationCenter> repository)
         {
             vaccinationCenterRepository = repository;
-            this.vaccineRepository = vaccineRepository;
         }
 
         public VaccinationCenter CreateNewVaccinationCenter(VaccinationCenter vaccinationCenter)
@@ -43,16 +36,11 @@ namespace IntegratedSystems.Service.Implementation
             return vaccinationCenterRepository.GetAll().ToList();
         }
 
-        public void ScheduleVaccine(VaccinationDTO dto)
+        public void LowerCapacity(Guid id)
         {
-            Vaccine vaccine = new Vaccine();
-            vaccine.Manufacturer = dto.manufacturer;
-            vaccine.Certificate = Guid.NewGuid();
-            vaccine.VaccinationCenter = dto.vaccCenterId;
-            vaccine.PatientId = dto.patientId;
-            vaccine.DateTaken = dto.vaccinationDate;
-            vaccine.Center = vaccinationCenterRepository.Get(dto.vaccCenterId);
-            vaccineRepository.Insert(vaccine);
+            var vaccCenter = this.GetVaccinationCenterById(id);
+            vaccCenter.MaxCapacity--;
+            this.UpdateVaccinationCenter(vaccCenter);
         }
 
         public VaccinationCenter UpdateVaccinationCenter(VaccinationCenter vaccinationCenter)

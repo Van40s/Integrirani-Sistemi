@@ -24,6 +24,7 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddTransient<IVaccinationCenterService, VaccinationCenterServiceImpl>();
 builder.Services.AddTransient<IPatientService, PatientServiceImpl>();
+builder.Services.AddTransient<IVaccinationService, VaccinationServiceImpl>();
 
 
 var app = builder.Build();

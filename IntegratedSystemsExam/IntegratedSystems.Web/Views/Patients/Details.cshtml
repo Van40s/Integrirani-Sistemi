@@ -1,4 +1,4 @@
-﻿@model IntegratedSystems.Domain.Domain_Models.Patient
+﻿@model IntegratedSystems.Domain.DTO.PatientDetailsDTO
 
 @{
     ViewData["Title"] = "Details";
@@ -12,39 +12,39 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Embg)
+            @Html.DisplayNameFor(model => model.patient.Embg)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Embg)
+            @Html.DisplayFor(model => model.patient.Embg)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FirstName)
+            @Html.DisplayNameFor(model => model.patient.FirstName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FirstName)
+            @Html.DisplayFor(model => model.patient.FirstName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LastName)
+            @Html.DisplayNameFor(model => model.patient.LastName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LastName)
+            @Html.DisplayFor(model => model.patient.LastName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PhoneNumber)
+            @Html.DisplayNameFor(model => model.patient.PhoneNumber)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PhoneNumber)
+            @Html.DisplayFor(model => model.patient.PhoneNumber)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
+            @Html.DisplayNameFor(model => model.patient.Email)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
+            @Html.DisplayFor(model => model.patient.Email)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.patient.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
     <table class="table">
         <thead>
@@ -54,30 +54,30 @@
         <th>Certificate</th>
         </thead>
         <tbody>
-            @foreach (var item in Model.VaccinationSchedule)
-            {
+            @{
+                var i = 0;
 
+                foreach (var item in Model.vaccines)
+                {
+                    <tr>
+                        <td>
+                            @{
+                                i = i + 1;
+                                <p>@i</p>
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Center.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DateTaken)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Certificate)
+                        </td>
+                    </tr>
 
-
-                <tr>
-                    <td>
-                        @{
-                            var i = 0;
-                            i = i + 1;
-                            <p>@i</p>
-                        }
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Center.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DateTaken)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Certificate)
-                    </td>
-                </tr>
-
+                }
             }
         </tbody>
     </table>

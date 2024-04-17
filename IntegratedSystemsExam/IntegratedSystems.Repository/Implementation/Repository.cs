@@ -44,20 +44,6 @@ namespace IntegratedSystems.Repository.Implementation
                     .Include("Center")
                     .First(s => s.Id == id);
             }
-            else if (typeof(T).IsAssignableFrom(typeof(VaccinationCenter)))
-            {
-                return entities
-                    .Include("Vaccines")
-                    .Include("Vaccines.PatientFor")
-                    .First(s => s.Id == id);
-            }
-            else if (typeof(T).IsAssignableFrom(typeof(Patient)))
-            {
-                return entities
-                    .Include("VaccinationSchedule")
-                    .Include("VaccinationSchedule.Center")
-                    .First(s => s.Id == id);
-            }
             else
             {
                 return entities.First(s => s.Id == id);

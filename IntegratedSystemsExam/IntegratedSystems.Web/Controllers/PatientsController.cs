@@ -8,16 +8,19 @@ using Microsoft.EntityFrameworkCore;
 using IntegratedSystems.Domain.Domain_Models;
 using IntegratedSystems.Repository;
 using IntegratedSystems.Service.Interface;
+using IntegratedSystems.Domain.DTO;
 
 namespace IntegratedSystems.Web.Controllers
 {
     public class PatientsController : Controller
     {
         private readonly IPatientService _patientService;
+        private readonly IVaccinationService _vaccineService;
 
-        public PatientsController(IPatientService _patientService)
+        public PatientsController(IPatientService _patientService, IVaccinationService vaccineService)
         {
             this._patientService = _patientService;
+            _vaccineService = vaccineService;
         }
 
         // GET: Patients
@@ -33,14 +36,17 @@ namespace IntegratedSystems.Web.Controllers
             {
                 return NotFound();
             }
+            PatientDetailsDTO dto = new PatientDetailsDTO();
 
-            var patient = _patientService.GetPatientById(id);
-            if (patient == null)
+            dto.patient = _patientService.GetPatientById(id);
+            dto.vaccines = _vaccineService.GetVaccinesForPatient(id);
+
+            if (dto.patient == null)
             {
                 return NotFound();
             }
 
-            return View(patient);
+            return View(dto);
         }
 
         // GET: Patients/Create
